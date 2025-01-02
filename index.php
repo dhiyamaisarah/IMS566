@@ -18,7 +18,7 @@ $profiles = [
 
 // Determine the page to display
 $page = isset($_GET['page']) ? $_GET['page'] : 'login';
-$profileId = isset($_GET['id']) ? intval($_GET['id']): null;
+$profileId = isset($_GET['id']) ? $_GET['id']: null;
 ?>
 
 <?php if ($page === 'profiles'): ?>
